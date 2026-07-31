@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon Ball Z Character Creator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="cabecalho">
+
+            <img src="logo.png"
+                alt="Dragon Ball Z Logo"
+                class="logo">
+
+            <h1 class="titulo">
+                Character Creator
+            </h1>
+
+            <p class="subtitulo">
+                Descubra como seria seu personagem no universo Dragon Ball Z.
+            </p>
+
+        </header>
+
+        <form action="https://webhook.site/ecbca607-b464-427b-ab13-39f94391ff43" method="post">
+                        <fieldset>
+
+                <legend>Informações do Guerreiro</legend>
+
+                <label for="nome">
+                    Nome
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required>
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required>
+
+                <label for="idade">
+                    Idade
+                </label>
+
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    min="10"
+                    max="120"
+                    required>
+
+                <label for="nascimento">
+                    Data de nascimento
+                </label>
+
+                <input
+                    type="date"
+                    id="nascimento"
+                    name="nascimento"
+                    required>
+
+            </fieldset>
+                        <fieldset>
+
+                <legend>Raça</legend>
+
+                <p>Qual seria sua raça?</p>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Saiyajin"
+                        required>
+
+                    Saiyajin
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Humano">
+
+                    Humano
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Namekuseijin">
+
+                    Namekuseijin
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Androide">
+
+                    Androide
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Majin">
+
+                    Majin
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="raca"
+                        value="Raça de Freeza">
+
+                    Raça de Freeza
+
+                </label>
+
+            </fieldset>
+                        <fieldset>
+
+                <legend>Estilo de Combate</legend>
+
+                <p>Quais habilidades fazem parte do seu estilo de luta?</p>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Artes Marciais">
+
+                    Artes Marciais
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Ataques de Ki">
+
+                    Ataques de Ki
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Espada">
+
+                    Espada
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Velocidade">
+
+                    Velocidade
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Estratégia">
+
+                    Estratégia
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="estilo"
+                        value="Transformações">
+
+                    Transformações
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Origem</legend>
+
+                <label for="planeta">
+
+                    Em qual planeta você viveria?
+
+                </label>
+
+                <select
+                    id="planeta"
+                    name="planeta"
+                    required>
+
+                    <option value="">Selecione...</option>
+
+                    <option>Terra</option>
+
+                    <option>Planeta Vegeta</option>
+
+                    <option>Namekusei</option>
+
+                    <option>Planeta Kaiô</option>
+
+                    <option>Planeta Supremo Kai</option>
+
+                    <option>Planeta de Bills</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="poder">
+
+                    Nível de Poder
+
+                </label>
+
+                <input
+                    type="range"
+                    id="poder"
+                    name="poder"
+                    min="1"
+                    max="10000"
+                    value="5000">
+
+                <label for="aura">
+
+                    Cor da sua Aura
+
+                </label>
+
+                <input
+                    type="color"
+                    id="aura"
+                    name="aura"
+                    value="#ffae00">
+
+            </fieldset>
+                        <fieldset>
+
+                <legend>Evolução do Personagem</legend>
+
+                <label for="transformacao">
+
+                    Transformação Favorita
+
+                </label>
+
+                <select
+                    id="transformacao"
+                    name="transformacao"
+                    required>
+
+                    <option value="">Selecione...</option>
+
+                    <option>Super Saiyajin</option>
+
+                    <option>Super Saiyajin 2</option>
+
+                    <option>Super Saiyajin 3</option>
+
+                    <option>Super Saiyajin God</option>
+
+                    <option>Super Saiyajin Blue</option>
+
+                    <option>Ultra Instinct</option>
+
+                    <option>Ultra Ego</option>
+
+                    <option>Forma Dourada (Freeza)</option>
+
+                    <option>Orange Piccolo</option>
+
+                    <option>Beast Gohan</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="inimigo">
+
+                    Qual seria seu maior inimigo?
+
+                </label>
+
+                <select
+                    id="inimigo"
+                    name="inimigo">
+
+                    <option>Freeza</option>
+
+                    <option>Cell</option>
+
+                    <option>Majin Boo</option>
+
+                    <option>Broly</option>
+
+                    <option>Goku Black</option>
+
+                    <option>Zamasu</option>
+
+                    <option>Jiren</option>
+
+                    <option>Beerus</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="desejo">
+
+                    Qual seria seu desejo para Shenlong?
+
+                </label>
+
+                <input
+                    type="text"
+                    id="desejo"
+                    name="desejo"
+                    maxlength="80"
+                    placeholder="Ex.: Tornar-me o guerreiro mais forte do universo">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Sua Jornada</legend>
+
+                <label for="historia">
+
+                    Conte como seria sua história no universo Dragon Ball.
+
+                </label>
+
+                <textarea
+                    id="historia"
+                    name="historia"
+                    rows="8"
+                    maxlength="600"
+                    placeholder="Descreva sua origem, seus objetivos, aliados, transformações e aventuras..."></textarea>
+
+            </fieldset>
+
+            <input
+                type="submit"
+                class="botao"
+                value="Criar Meu Personagem">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
