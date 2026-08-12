@@ -1,0 +1,7 @@
+Escolhi o tema Dragon Ball Z porque gosto do universo da série e achei interessante transformar as informações do usuário em características de um personagem. Dessa forma, o formulário ficou mais criativo e permitiu relacionar cada campo com elementos do universo de Dragon Ball.
+
+Utilizei o método POST, pois ele envia os dados no corpo da requisição, em vez de colocá-los diretamente na URL. Como o formulário reúne várias informações sobre o personagem, considerei o POST mais adequado para esse tipo de envio.
+
+Utilizei radio para a escolha da raça, pois o usuário deve selecionar apenas uma opção. Já para o estilo de combate, utilizei checkbox, porque o personagem pode possuir várias habilidades ao mesmo tempo.
+
+Se tivesse mais tempo, adicionaria JavaScript para criar automaticamente um perfil do personagem após o preenchimento, mostrando informações como raça, nível de poder, planeta, transformação e cor da aura. Também adicionaria mais elementos visuais para deixar a experiência mais parecida com um criador de personagens.
